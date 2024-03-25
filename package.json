@@ -16,8 +16,8 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "monday-sdk-js": "^0.5.0",
-    "monday-ui-react-core": "^1.54.0",
-    "parse-gitignore": "^2.0.0"
+    "monday-ui-react-core": "^1.54.0"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
