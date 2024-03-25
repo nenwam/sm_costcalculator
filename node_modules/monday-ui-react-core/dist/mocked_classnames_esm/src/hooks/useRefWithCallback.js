@@ -1,0 +1,1 @@
+import{useRef as r,useCallback as t}from"react";function n(n,u){var e=r(null),c=t((function(r){e.current&&u&&u(e.current),e.current=r,e.current&&n&&n(e.current)}),[n,u]);return[e,c]}export{n as default};

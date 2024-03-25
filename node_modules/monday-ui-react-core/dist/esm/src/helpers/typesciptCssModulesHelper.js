@@ -1,0 +1,1 @@
+function n(n,r){return r&&n[r]?n[r]:""}export{n as getStyle};

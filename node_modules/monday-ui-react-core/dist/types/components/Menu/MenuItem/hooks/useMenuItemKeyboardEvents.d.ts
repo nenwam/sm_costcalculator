@@ -1,0 +1,18 @@
+import React from "react";
+import { CloseMenuOption } from "../../Menu/MenuConstants";
+export default function useMenuItemKeyboardEvents({ onClick, disabled, isActive, index, setActiveItemIndex, hasChildren, shouldShowSubMenu, setSubMenuIsOpenByIndex, menuRef, isMouseEnter, closeMenu, useDocumentEventListeners }: {
+    onClick: (event: React.MouseEvent | React.KeyboardEvent) => void;
+    disabled: boolean;
+    isActive: boolean;
+    index: number;
+    hasChildren: boolean;
+    shouldShowSubMenu: boolean;
+    setSubMenuIsOpenByIndex: (index: number, isOpen: boolean) => void;
+    setActiveItemIndex: (index: number) => void;
+    menuRef: React.RefObject<HTMLElement>;
+    isMouseEnter: boolean;
+    closeMenu: (option: CloseMenuOption) => void;
+    useDocumentEventListeners: boolean;
+}): {
+    onClickCallback: (event: React.MouseEvent | React.KeyboardEvent) => void;
+};

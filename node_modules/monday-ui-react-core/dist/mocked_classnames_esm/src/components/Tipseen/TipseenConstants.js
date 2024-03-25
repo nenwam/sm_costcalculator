@@ -1,0 +1,1 @@
+var i,s="Submit",t="Dismiss",o="Close";!function(i){i.LIGHT="light",i.DARK="dark"}(i||(i={}));export{t as DISMISS_BUTTON_TEXT,s as SUBMIT_BUTTON_TEXT,o as TIPSEEN_CLOSE_BUTTON_ARIA_LABEL,i as TipseenCloseButtonTheme};

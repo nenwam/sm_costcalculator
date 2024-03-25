@@ -1,0 +1,1 @@
+var n,t;!function(n){n.XXS="16",n.XS="24",n.SMALL="32",n.MEDIUM="40",n.LARGE="48"}(n||(n={})),function(n){n.START="start",n.END="end"}(t||(t={}));export{t as MenuButtonComponentPosition,n as MenuButtonSize};

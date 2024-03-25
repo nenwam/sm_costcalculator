@@ -1,0 +1,1 @@
+function n(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:[],i=arguments.length>1?arguments[1]:void 0,o=n.find((function(n){return void 0!==n}));return void 0===o?i:o}export{n as backwardCompatibilityForProperties};

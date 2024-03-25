@@ -1,0 +1,1 @@
+import{defineProperty as r}from"../../../../_virtual/_rollupPluginBabelHelpers.js";import{SIZES as t}from"../../../constants/sizes.js";var o,e=(r(o={},t.XXS,16),r(o,t.XS,24),r(o,t.SMALL,32),r(o,t.MEDIUM,40),r(o,t.LARGE,48),o);function i(r){return{width:"".concat(e[r],"px"),height:"".concat(e[r],"px")}}export{i as getWidthHeight};

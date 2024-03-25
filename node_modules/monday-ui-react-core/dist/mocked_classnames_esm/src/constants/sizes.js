@@ -1,0 +1,1 @@
+var s={SMALL:"small",MEDIUM:"medium",LARGE:"large"};Object.assign({NONE:"none"},s);var a,e,l=Object.assign({XXS:"xxs",XS:"xs"},s);!function(s){s.SMALL="small",s.MEDIUM="medium",s.LARGE="large"}(a||(a={})),function(s){s.XXS="xxs",s.XS="xs",s.SMALL="small",s.MEDIUM="medium",s.LARGE="large"}(e||(e={}));export{s as BASE_SIZES,a as BaseSizes,l as SIZES,e as Sizes};

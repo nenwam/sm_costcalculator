@@ -1,0 +1,1 @@
+var r,e;!function(r){r.BEGIN="begin",r.CENTER="center",r.END="end"}(r||(r={})),function(r){r.Dark="dark",r.Success="success",r.Error="error",r.Share="share",r.Private="private",r.Surface="surface",r.Primary="primary"}(e||(e={}));export{r as TooltipArrowPosition,e as TooltipTheme};

@@ -1,0 +1,4 @@
+export declare enum TabPanelsAnimationDirection {
+    RTL = "rtl",
+    LTR = "ltr"
+}

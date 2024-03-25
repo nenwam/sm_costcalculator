@@ -1,0 +1,1 @@
+var t,E,c="custom";!function(t){t.CIRCLE="circle",t.RECTANGLE="rectangle",t.TEXT="text"}(t||(t={})),function(t){t.H1="h1",t.H2="h2",t.H3="h3",t.H4="h4",t.H5="h5",t.H6="h6",t.P="p",t.SMALL="small"}(E||(E={}));var C={CUSTOM:"custom",CIRCLE:{},RECTANGLE:{},TEXT:E};export{c as SKELETON_CUSTOM_SIZE,C as SKELETON_SIZES,t as SkeletonType,E as TextSkeletonSize};

@@ -1,0 +1,1 @@
+import{jsx as r,Fragment as i}from"react/jsx-runtime";import{forwardRef as e}from"react";import c from"./Clickable.js";var o=e((function(e,o){var t=e.children,a=e.isClickable,l=e.clickableProps;return void 0===a||a?r(c,Object.assign({},void 0===l?{}:l,{ref:o},{children:t})):r(i,{children:t})}));export{o as default};

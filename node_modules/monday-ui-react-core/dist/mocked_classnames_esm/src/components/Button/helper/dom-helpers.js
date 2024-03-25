@@ -1,0 +1,1 @@
+var r="rgba(0, 0, 0, 0)";function e(r,t){var n=r.parentElement;if(r===r.parentElement)return r?window.getComputedStyle(r).backgroundColor:t;if(!n)return t;var o=window.getComputedStyle(n).backgroundColor;return o&&o!==t?"rgba(0, 0, 0, 0)"===o?t:o:e(n,t)}export{r as TRANSPARENT_COLOR,e as getParentBackgroundColorNotTransparent};

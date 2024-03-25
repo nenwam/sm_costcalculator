@@ -1,0 +1,1 @@
+var r,o;!function(r){r.PRIMARY="var(--primary-color)",r.SECONDARY="var(--secondary-text-color)",r.ON_PRIMARY="var(--text-color-on-inverted)",r.DARK="var(--primary-text-color)"}(r||(r={})),function(r){r[r.XS=16]="XS",r[r.SMALL=24]="SMALL",r[r.MEDIUM=40]="MEDIUM",r[r.LARGE=64]="LARGE"}(o||(o={}));export{r as LoaderColors,o as LoaderSizes};

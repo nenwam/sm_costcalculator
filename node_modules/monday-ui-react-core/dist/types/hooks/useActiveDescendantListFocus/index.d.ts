@@ -1,0 +1,35 @@
+import React, { MutableRefObject } from "react";
+declare enum Role {
+    APPLICATION = "application",
+    COMBOBOX = "combobox",
+    COMPOSITE = "composite",
+    GROUP = "group",
+    TEXTBOX = "textbox",
+    MENU = "menu"
+}
+declare function useActiveDescendantListFocus({ focusedElementRef, // the reference for the component that listens to keyboard
+itemsIds, isItemSelectable, onItemClick, defaultVisualFocusFirstIndex, focusedElementRole, isHorizontalList, useDocumentEventListeners, isIgnoreSpaceAsItemSelection }: {
+    focusedElementRef: MutableRefObject<HTMLElement>;
+    itemsIds: string[];
+    isItemSelectable: (index: number) => boolean;
+    onItemClick: (event: React.KeyboardEvent | React.MouseEvent, index: number) => void;
+    defaultVisualFocusFirstIndex?: boolean;
+    focusedElementRole?: Role;
+    isHorizontalList?: boolean;
+    isIgnoreSpaceAsItemSelection?: boolean;
+    useDocumentEventListeners?: boolean;
+}): {
+    visualFocusItemIndex: number;
+    visualFocusItemId: string;
+    focusedElementProps: {
+        "aria-activedescendant": string;
+        role: Role;
+    };
+    onItemClickCallback: (event: React.KeyboardEvent | React.MouseEvent, index: number) => void;
+    createOnItemClickCallback: (itemIndex: number) => (event: React.KeyboardEvent | React.MouseEvent) => void;
+    setVisualFocusItemId: (visualFocusItemId: string, isTriggeredByKeyboard: boolean) => void;
+};
+declare namespace useActiveDescendantListFocus {
+    var roles: typeof Role;
+}
+export default useActiveDescendantListFocus;

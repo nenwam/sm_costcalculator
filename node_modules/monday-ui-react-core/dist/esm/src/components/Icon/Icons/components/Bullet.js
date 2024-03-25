@@ -1,0 +1,1 @@
+import{__rest as r}from"../../../../../_virtual/_tslib.js";import{jsx as i}from"react/jsx-runtime";var e=function(e){var t=e.size,l=r(e,["size"]);return i("svg",Object.assign({viewBox:"0 0 20 20",fill:"currentColor",width:t||"20",height:t||"20"},l,{children:i("circle",{cx:"10",cy:"10",r:"3",fill:"currentColor"})}))};e.displayName="Bullet";export{e as default};
